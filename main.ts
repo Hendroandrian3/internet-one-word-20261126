@@ -1,5 +1,7 @@
 // The Internet in One Word — one word, written to /output/entry.txt.
 // The word is a fixed string: the program is deterministic by construction.
+// Why "brainrot": internet-native slang, funny on its own, and true about the
+// endless low-effort feed — it names what the whole internet does to attention.
 import { mkdirSync, writeFileSync } from "node:fs";
 
 const WORD = "brainrot";
